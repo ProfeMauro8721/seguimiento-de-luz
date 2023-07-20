@@ -3,7 +3,7 @@ servos.P1.setAngle(90)
 let Nivel_luz = 0
 basic.forever(function () {
     Nivel_luz = input.lightLevel()
-    if (Nivel_luz >= 200) {
+    if (Nivel_luz >= 150) {
         basic.showIcon(IconNames.Surprised)
         servos.P1.setAngle(0)
         basic.pause(700)
